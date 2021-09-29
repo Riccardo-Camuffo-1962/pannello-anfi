@@ -22,7 +22,7 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 
 // styles
 
-import "bootstrap/scss/bootstrap.scss";
+import "assets/bootstrap/scss/bootstrap.scss";
 import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 
