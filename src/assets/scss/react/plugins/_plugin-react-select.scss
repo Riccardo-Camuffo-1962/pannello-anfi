@@ -1,0 +1,27 @@
+.searchCatSelect {
+	width: 200px;
+	margin-left: 25px;
+}
+
+.searchCatSelect__control:hover,
+.searchCatSelect__control--is-focused {
+	border-color: transparent!important;
+	box-shadow: unset!important;
+}
+
+.subscriptionCategorySelect__control:hover,
+.subscriptionCategorySelect__control--is-focused {
+	border-color: black;
+}
+
+div.subscriptionCategorySelect__single-value.css-1uccc91-singleValue
+{
+	font-weight: 500;
+}
+
+div.subscriptionCategorySelect.css-2b097c-container
+{
+	font-weight: 500;
+	width: 250px;
+}
+

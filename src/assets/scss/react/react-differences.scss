@@ -1,0 +1,35 @@
+// Plugins CSS
+@import "plugins/plugin-nouislider";
+@import "plugins/plugin-react-bootstrap-switch";
+@import "plugins/plugin-react-datetime";
+@import "plugins/plugin-react-datatable";
+@import "plugins/plugin-react-select";
+// components
+@import "paper-kit/dropdown";
+@import "paper-kit/inputs";
+@import "paper-kit/navbars";
+@import "paper-kit/responsive";
+@import "paper-kit/switch";
+@import "paper-kit/tooltips-and-popovers";
+// Specifiche del pannello di controllo
+@import "control-panel/pedigree_table";
+
+.notification-container {
+	top: 100!important;
+}
+
+.notification-info {
+	background-color: #6ec7e0!important;
+}
+
+.notification-success {
+	background-color: #86d9ab!important;
+}
+
+.notification-warning {
+	background-color: #fcd27b!important;
+}
+
+.notification-error {
+	background-color: #f7765f!important;
+}

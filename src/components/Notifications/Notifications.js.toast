@@ -1,0 +1,21 @@
+import { Component } from 'react';
+
+import toast, { Toaster } from 'react-hot-toast';
+
+export const notify = ( type, message ) => {
+	
+	toast( 'Sti cazzi' );
+
+};
+
+export class Notifications extends Component
+{
+	render()
+	{
+		return ( <Toaster 
+					reverseOrder={true}
+
+			toastOptions = {{ style: { marginTop: '300px', } }} /> );
+	}
+	
+}
